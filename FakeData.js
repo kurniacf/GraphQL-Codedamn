@@ -61,4 +61,43 @@ const UserList = [
     },
 ];
 
-module.exports = {UserList};
+const MovieList = [
+    {
+        id: 1, 
+        name: "Avengers Endgame", 
+        yearOfPublication: 2019,
+        isInTheaters: false,
+    },
+    {
+        id: 2, 
+        name: "Spiderman No Way Home", 
+        yearOfPublication: 2021,
+        isInTheaters: true,
+    },
+    {
+        id: 3,
+        name: "Venom Let There Be Carnage", 
+        yearOfPublication: 2021,
+        isInTheaters: false,
+    },
+    {
+        id: 4, 
+        name: "Kingsman", 
+        yearOfPublication: 2021,
+        isInTheaters: true,
+    },
+    {
+        id: 5,
+        name: "Venom", 
+        yearOfPublication: 2018,
+        isInTheaters: false,
+    },
+    {
+        id: 6,
+        name: "The Avengers", 
+        yearOfPublication: 2012,
+        isInTheaters: false,
+    },
+];
+
+module.exports = {UserList, MovieList};
