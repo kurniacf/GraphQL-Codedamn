@@ -4,35 +4,60 @@ const UserList = [
         name: "Kurnia",
         username: "Kurnia",
         age: 19,
-        nationality: "Indonesia",
+        nationality: "INDONESIA",
+        friends: [
+            {
+                id: 2,
+                name: "Mail",
+                username: "Mail",
+                age: 22,
+                nationality: "MALAYSIA",
+            },
+            {
+                id: 5,
+                name: "Asta",
+                username: "AstaSlayer",
+                age: 15,
+                nationality: "JAPAN",
+            },
+        ]
     },
     {
         id: 2,
         name: "Mail",
         username: "Mail",
         age: 22,
-        nationality: "Malaysia",
+        nationality: "MALAYSIA",
     },
     {
         id: 3,
         name: "Messi",
         username: "Messi10",
         age: 34,
-        nationality: "Argentina",
+        nationality: "ARGENTINA",
+        friends: [
+            {
+                id: 2,
+                name: "Mail",
+                username: "Mail",
+                age: 22,
+                nationality: "MALAYSIA",
+            },
+        ]
     },
     {
         id: 4,
         name: "Gabriel",
         username: "GabsJ",
         age: 27,
-        nationality: "Brazil",
+        nationality: "BRAZIL",
     },
     {
         id: 5,
         name: "Asta",
         username: "AstaSlayer",
         age: 15,
-        nationality: "Japan",
+        nationality: "JAPAN",
     },
 ];
 
