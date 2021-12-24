@@ -1,38 +1,39 @@
-export const UserList = [
+const UserList = [
     {
         id: 1,
         name: "Kurnia",
         username: "Kurnia",
         age: 19,
-        natinality: "Indonesia",
+        nationality: "Indonesia",
     },
     {
         id: 2,
         name: "Mail",
         username: "Mail",
         age: 22,
-        natinality: "Malaysia",
+        nationality: "Malaysia",
     },
     {
         id: 3,
         name: "Messi",
         username: "Messi10",
         age: 34,
-        natinality: "Argentina",
+        nationality: "Argentina",
     },
     {
         id: 4,
         name: "Gabriel",
         username: "GabsJ",
         age: 27,
-        natinality: "Brazil",
+        nationality: "Brazil",
     },
     {
         id: 5,
         name: "Asta",
         username: "AstaSlayer",
         age: 15,
-        natinality: "Japan",
-    }
+        nationality: "Japan",
+    },
+];
 
-]
+module.exports = {UserList};
